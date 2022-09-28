@@ -144,3 +144,5 @@ const SingleListItem = memo(WrappedSingleListItem);
 export default SingleListItem;
 
 ```
+## Added styles for better look.
+## Added Item text to demonstrate how code works.
