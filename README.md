@@ -11,9 +11,10 @@
 #### `propTypes.default.shapeOf` is not a function so replaced it with `shape` function
 #### `propTypes.default.array` is not a function so replaced it with `arrayOf` function
 #### Cannot read properties of `null` (reading 'map') to resolve this error I added condition if array is not null then iteration will be done.
-####
-####
-####
+#### const [setSelectedIndex, selectedIndex] = useState(); function and variable were not in place so corrected them and initialised variable with false.
+#### Changed `onClick={onClickHandler(index)}` to callback function `onClick={() => onClickHandler(index)}`
+#### Changed ` isSelected={selectedIndex}` to ` isSelected={selectedIndex===index}` to keep track what item is clicked.
+#### Warning: Each child in a list should have a unique `key` prop error to resolve it added  `key={index}`.
 
 
 # Please fix, optimize, and/or modify the component as much as you think is necessary.
