@@ -1,9 +1,9 @@
 # Explain what the simple List component does.
 
-#####  List is memoized component from `WrappedListComponent` and take items as a props which is array of object in which `text` and `clickhandler` is set as required in prototypes.
-##### Item which is passed as props in `WrappedListComponent` is iterated over and wrapped in `singleListItem`.
-##### In return we are iterating over `item` and calling `ingleListItem` to create li component and wrap it in `unorodered list`.
-##### Talking about functionality by default list is created with default background as `Red` and after clicking the `li` it changed to `Green` using `clickhandler`.
+####  List is memoized component from `WrappedListComponent` and take items as a props which is array of object in which `text` and `clickhandler` is set as required in prototypes.
+#### Item which is passed as props in `WrappedListComponent` is iterated over and wrapped in `singleListItem`.
+#### In return we are iterating over `item` and calling `singleListItem` to create li component and wrap it in `unorodered list`.
+#### Talking about functionality by default list is created with default background as `Red` and after clicking the `li` it changed to `Green` using `clickhandler`.
 
 # What problems / warnings are there with code?
 # Please fix, optimize, and/or modify the component as much as you think is necessary.
