@@ -35,8 +35,18 @@
 +const [selectedIndex, setSelectedIndex] = useState(false);
 ```
 
-####
-####
+#### 4.
+```diff
+- isSelected={selectedIndex}
++ isSelected={selectedIndex === index}
+```
+#### 5.
+```diff
+-  onClick={onClickHandler(index)}
+- onClickHandler={() => handleClick(index)}
++ onClick={() => onClickHandler(index)}
++ onClickHandler={(e) => handleClick(e)}
+```
 
 ## Updated code of List component
 ```js
