@@ -19,13 +19,22 @@
 
 # Please fix, optimize, and/or modify the component as much as you think is necessary.
 
-#### 
+#### 1.
 ```diff
-PropTypes.shapeOf
-PropTypes.shape
+-PropTypes.shapeOf
++PropTypes.shape
 ```
-####
-####
+#### 2.
+```diff
+-PropTypes.array
++PropTypes.arrayOf
+```
+####  3.
+```diff
+-const [setSelectedIndex, selectedIndex] = useState();
++const [selectedIndex, setSelectedIndex] = useState(false);
+```
+
 ####
 ####
 
