@@ -7,16 +7,23 @@
 
 # What problems / warnings are there with code? 
 
-#### `Could not find dependency: 'prop-types'` error  so added proptypes as dependency.
-####
-####
-####
+#### Could not find dependency: `'prop-types'` error  so added proptypes as dependency.
+#### `propTypes.default.shapeOf` is not a function so replaced it with `shape` function
+#### `propTypes.default.array` is not a function so replaced it with `arrayOf` function
+#### Cannot read properties of `null` (reading 'map') to resolve this error I added condition if array is not null then iteration will be done.
 ####
 ####
 ####
 
 
 # Please fix, optimize, and/or modify the component as much as you think is necessary.
+
+####
+####
+####
+####
+####
+
 ## Updated code of List component
 ```js
 import React, { useState, useEffect, memo } from "react";
