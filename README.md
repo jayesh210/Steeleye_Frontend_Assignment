@@ -1,5 +1,7 @@
 # Explain what the simple List component does.
--List is memoized component from `WrappedListComponent` and take items as a props which is array of object in which `text` and `clickhandler` is set as required in prototypes. 
+
+###  List is memoized component from `WrappedListComponent` and take items as a props which is array of object in which `text` and `clickhandler` is set as required in prototypes.
+
 # What problems / warnings are there with code?
 # Please fix, optimize, and/or modify the component as much as you think is necessary.
 ## Updated code of List component
